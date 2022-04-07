@@ -22,8 +22,9 @@ C:\_Travaux\JFD\WEB-Project\ChantChoraleEtGroupe\api.ccg.rezo509.com\obj\Debug\n
 C:\_Travaux\JFD\WEB-Project\ChantChoraleEtGroupe\api.ccg.rezo509.com\obj\Debug\net5.0\staticwebassets\api.ccg.rezo509.com.StaticWebAssets.xml
 C:\_Travaux\JFD\WEB-Project\ChantChoraleEtGroupe\api.ccg.rezo509.com\obj\Debug\net5.0\scopedcss\bundle\api.ccg.rezo509.com.styles.css
 C:\_Travaux\JFD\WEB-Project\ChantChoraleEtGroupe\api.ccg.rezo509.com\obj\Debug\net5.0\api.ccg.rezo509.com.RazorTargetAssemblyInfo.cache
-C:\_Travaux\JFD\WEB-Project\ChantChoraleEtGroupe\api.ccg.rezo509.com\obj\Debug\net5.0\api.ccg.rezo509.com.csproj.CopyComplete
 C:\_Travaux\JFD\WEB-Project\ChantChoraleEtGroupe\api.ccg.rezo509.com\obj\Debug\net5.0\api.ccg.rezo509.com.dll
 C:\_Travaux\JFD\WEB-Project\ChantChoraleEtGroupe\api.ccg.rezo509.com\obj\Debug\net5.0\ref\api.ccg.rezo509.com.dll
 C:\_Travaux\JFD\WEB-Project\ChantChoraleEtGroupe\api.ccg.rezo509.com\obj\Debug\net5.0\api.ccg.rezo509.com.pdb
 C:\_Travaux\JFD\WEB-Project\ChantChoraleEtGroupe\api.ccg.rezo509.com\obj\Debug\net5.0\api.ccg.rezo509.com.genruntimeconfig.cache
+C:\_Travaux\JFD\WEB-Project\ChantChoraleEtGroupe\api.ccg.rezo509.com\bin\Debug\net5.0\MySqlConnector.dll
+C:\_Travaux\JFD\WEB-Project\ChantChoraleEtGroupe\api.ccg.rezo509.com\obj\Debug\net5.0\api.ccg.rezo509.com.csproj.CopyComplete

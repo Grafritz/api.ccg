@@ -1,3 +1,4 @@
+using Brain.Dev.GStock.Data;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -10,6 +11,7 @@ using Microsoft.OpenApi.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 using System.Threading.Tasks;
 
 namespace api.ccg.rezo509.com
@@ -26,6 +28,23 @@ namespace api.ccg.rezo509.com
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            var defaultConnection = Configuration.GetConnectionString("DefaultConnection");
+            var connectionStringsSection = Configuration.GetSection("ConnectionStrings");
+            var appSettingsSection = Configuration.GetSection("AppSettings");
+            services.Configure<AppSettings>(appSettingsSection);
+            services.Configure<ConnectionStrings>(connectionStringsSection);
+
+            var connectionStrings = connectionStringsSection.Get<ConnectionStrings>();
+            var appSettings = appSettingsSection.Get<AppSettings>();
+            var key = Encoding.ASCII.GetBytes(appSettings.Secret);
+
+            //For container
+            var server = Configuration["DBServer"] ?? connectionStrings.Server;
+            var port = Configuration["DBPort"] ?? "1433";
+            var user = Configuration["DBUser"] ?? connectionStrings.UserId;
+            var password = Configuration["DBPassword"] ?? connectionStrings.Password;
+            var database = Configuration["DBName"] ?? connectionStrings.Database;
+
 
             services.AddControllers();
             services.AddSwaggerGen(c =>
@@ -40,9 +59,11 @@ namespace api.ccg.rezo509.com
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
-                app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "api.ccg.rezo509.com v1"));
+                //app.UseSwagger();
+                //app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "api.ccg.rezo509.com v1"));
             }
+            app.UseSwagger();
+            app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "api.ccg.rezo509.com v1"));
 
             app.UseHttpsRedirection();
 

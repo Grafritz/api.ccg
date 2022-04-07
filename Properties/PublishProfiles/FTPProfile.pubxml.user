@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAYJnyAtJgZki56y/qnpm00AAAAAACAAAAAAAQZgAAAAEAACAAAAAOlCKQrTU5VYM5/YuQaYXijIeb8NwLLq+fE/Ou3hmauAAAAAAOgAAAAAIAACAAAACAy403a4DLz/+kExluYMTx7kpfcRxKFDPubwZOXO6V2iAAAAC964AR/GkqZXTHAkJQm/+teLJlBJiccCViDLPPDR4r8UAAAADji5F3StWKOzPPltDFpEMBLKIa2qou6bgN2WQzCRp0uBj0bXVzozoT9b/bpsrM3USlp87F8r/y5UhSKqu/c2ku</EncryptedPassword>
+    <_PublishTargetUrl>ftp://ftp.onwindows-fr.setupdns.net</_PublishTargetUrl>
+    <History>True|2022-03-29T16:47:35.6121672Z;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="api.ccg.rezo509.com.deps.json">
+      <publishTime>03/29/2022 12:47:08</publishTime>
+    </File>
+    <File Include="api.ccg.rezo509.com.dll">
+      <publishTime>03/29/2022 12:47:08</publishTime>
+    </File>
+    <File Include="api.ccg.rezo509.com.exe">
+      <publishTime>03/29/2022 12:47:08</publishTime>
+    </File>
+    <File Include="api.ccg.rezo509.com.pdb">
+      <publishTime>03/29/2022 12:47:08</publishTime>
+    </File>
+    <File Include="api.ccg.rezo509.com.runtimeconfig.json">
+      <publishTime>03/29/2022 12:47:08</publishTime>
+    </File>
+    <File Include="appsettings.Development.json">
+      <publishTime>03/28/2022 22:39:55</publishTime>
+    </File>
+    <File Include="appsettings.json">
+      <publishTime>03/28/2022 22:39:55</publishTime>
+    </File>
+    <File Include="Microsoft.OpenApi.dll">
+      <publishTime>08/29/2020 20:14:12</publishTime>
+    </File>
+    <File Include="Swashbuckle.AspNetCore.Swagger.dll">
+      <publishTime>09/23/2020 12:47:20</publishTime>
+    </File>
+    <File Include="Swashbuckle.AspNetCore.SwaggerGen.dll">
+      <publishTime>09/23/2020 12:47:22</publishTime>
+    </File>
+    <File Include="Swashbuckle.AspNetCore.SwaggerUI.dll">
+      <publishTime>09/23/2020 12:47:24</publishTime>
+    </File>
+    <File Include="web.config">
+      <publishTime>03/29/2022 12:47:14</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,11 @@
+C:\_Travaux\JFD\WEB-Project\ChantChoraleEtGroupe\api.ccg.rezo509.com\obj\Release\net5.0\PubTmp\Out\api.ccg.rezo509.com.exe
+C:\_Travaux\JFD\WEB-Project\ChantChoraleEtGroupe\api.ccg.rezo509.com\obj\Release\net5.0\PubTmp\Out\appsettings.Development.json
+C:\_Travaux\JFD\WEB-Project\ChantChoraleEtGroupe\api.ccg.rezo509.com\obj\Release\net5.0\PubTmp\Out\appsettings.json
+C:\_Travaux\JFD\WEB-Project\ChantChoraleEtGroupe\api.ccg.rezo509.com\obj\Release\net5.0\PubTmp\Out\api.ccg.rezo509.com.dll
+C:\_Travaux\JFD\WEB-Project\ChantChoraleEtGroupe\api.ccg.rezo509.com\obj\Release\net5.0\PubTmp\Out\api.ccg.rezo509.com.deps.json
+C:\_Travaux\JFD\WEB-Project\ChantChoraleEtGroupe\api.ccg.rezo509.com\obj\Release\net5.0\PubTmp\Out\api.ccg.rezo509.com.runtimeconfig.json
+C:\_Travaux\JFD\WEB-Project\ChantChoraleEtGroupe\api.ccg.rezo509.com\obj\Release\net5.0\PubTmp\Out\api.ccg.rezo509.com.pdb
+C:\_Travaux\JFD\WEB-Project\ChantChoraleEtGroupe\api.ccg.rezo509.com\obj\Release\net5.0\PubTmp\Out\Microsoft.OpenApi.dll
+C:\_Travaux\JFD\WEB-Project\ChantChoraleEtGroupe\api.ccg.rezo509.com\obj\Release\net5.0\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
+C:\_Travaux\JFD\WEB-Project\ChantChoraleEtGroupe\api.ccg.rezo509.com\obj\Release\net5.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\_Travaux\JFD\WEB-Project\ChantChoraleEtGroupe\api.ccg.rezo509.com\obj\Release\net5.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll
