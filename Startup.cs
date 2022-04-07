@@ -54,7 +54,7 @@ namespace api.ccg.rezo509.com
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "api.ccg.rezo509.com [1]", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "api.ccg.rezo509.com [2]", Version = "v1" });
             });
         }
 
