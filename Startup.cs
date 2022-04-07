@@ -1,8 +1,10 @@
 using Brain.Dev.GStock.Data;
+using Brain.Dev.GStock.Data.DAO;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -44,6 +46,9 @@ namespace api.ccg.rezo509.com
             var user = Configuration["DBUser"] ?? connectionStrings.UserId;
             var password = Configuration["DBPassword"] ?? connectionStrings.Password;
             var database = Configuration["DBName"] ?? connectionStrings.Database;
+
+            //services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer($"Server={server};Initial Catalog={database};User ID={user};Password={password}"));
+            services.AddDbContext<ApplicationDbContext>(options => options.UseMySQL(connectionStrings.DefaultConnectionString));
 
 
             services.AddControllers();

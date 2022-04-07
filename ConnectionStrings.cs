@@ -11,7 +11,6 @@ namespace Brain.Dev.GStock.Data
         public string DefaultConnection { get; set; }
         public string Server { get; set; }
         public string Database { get; set; }
-        public string InitialCatalog { get; set; }
         public string UserId { get; set; }
         public string Secret { get; set; }
         public string Password { get; set; }
