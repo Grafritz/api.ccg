@@ -54,7 +54,7 @@ namespace api.ccg.rezo509.com
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "api.ccg.rezo509.com", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "api.ccg.rezo509.com [1]", Version = "v1" });
             });
         }
 
@@ -63,10 +63,11 @@ namespace api.ccg.rezo509.com
         {
             if (env.IsDevelopment())
             {
-                app.UseDeveloperExceptionPage();
+                //app.UseDeveloperExceptionPage();
                 //app.UseSwagger();
                 //app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "api.ccg.rezo509.com v1"));
             }
+            app.UseDeveloperExceptionPage();
             app.UseSwagger();
             app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "api.ccg.rezo509.com v1"));
 
