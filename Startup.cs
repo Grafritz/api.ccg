@@ -41,7 +41,7 @@ namespace api.ccg.rezo509.com
 
             //For container
             var server = Configuration["DBServer"] ?? connectionStrings.Server;
-            var port = Configuration["DBPort"] ?? "1433";
+            var port = Configuration["DBPort"] ?? "3306";
             var user = Configuration["DBUser"] ?? connectionStrings.UserId;
             var password = Configuration["DBPassword"] ?? connectionStrings.Password;
             var database = Configuration["DBName"] ?? connectionStrings.Database;
@@ -53,7 +53,7 @@ namespace api.ccg.rezo509.com
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "api.ccg.rezo509.com [4]", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "api.ccg.rezo509.com [5]", Version = "v1" });
             });
         }
 
