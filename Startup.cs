@@ -30,7 +30,6 @@ namespace api.ccg.rezo509.com
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            var defaultConnection = Configuration.GetConnectionString("DefaultConnection");
             var connectionStringsSection = Configuration.GetSection("ConnectionStrings");
             var appSettingsSection = Configuration.GetSection("AppSettings");
             services.Configure<AppSettings>(appSettingsSection);
@@ -54,7 +53,7 @@ namespace api.ccg.rezo509.com
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "api.ccg.rezo509.com [3]", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "api.ccg.rezo509.com [4]", Version = "v1" });
             });
         }
 

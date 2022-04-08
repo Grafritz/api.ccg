@@ -15,7 +15,7 @@ namespace Brain.Dev.GStock.Data.DAO
         private readonly ILogger<ApplicationDbContext> logger;
         private readonly ConnectionStrings connectionStrings;
         private readonly AppSettings appSettings;
-        private readonly string ConnectionStringName= "DefaultConnection";
+        //private readonly string ConnectionStringName= "DefaultConnection";
 
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options, 
             IOptions<ConnectionStrings> connectionStrings, 
